@@ -11,7 +11,8 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build":"parcel build index.html"
+    "build":"parcel build index.html",
+    "serve": "serve dist -s"
   },
   "devDependencies": {
     "parcel": "^2.15.4"
