@@ -1,0 +1,24 @@
+{
+  "name": "reactassignment",
+  "version": "1.0.0",
+  "description": "This is the frontend assignment given by Simpler Technologies",
+  "keywords": [
+    "React"
+  ],
+  "license": "ISC",
+  "author": "Priyanshu Acharya",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
